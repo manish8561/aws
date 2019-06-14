@@ -6,4 +6,5 @@ git clone https://github.com/manish8561/aws.git /var/www/html/upworktest/
 cd /var/www/html/upworktest
 npm i
 npm start
+ls >> test.txt
 echo coping the files
