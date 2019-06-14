@@ -11,9 +11,7 @@ hooks:
     - location: scripts/start_server
       timeout: 300
       runas: root
-  AfterInstall:
-    - "zip -r myapp.zip *"
-    - "cp myapp.zip /var/www/html/upworktest/"
+  AfterInstall: 
     - location: scripts/after_install
       timeout: 300
       runas: root
