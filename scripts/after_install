@@ -5,4 +5,3 @@ cd /var/www/html/upworktest
 npm i
 npm start
 ls >> test.txt
-echo coping the files
