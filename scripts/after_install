@@ -1,7 +1,7 @@
 #!/bin/bash
 #service httpd start
 #cp -r * /var/www/html/upworktest/
-rm -rf /var/www/html/upworktest/
+rm /var/www/html/upworktest/ -rf
 git clone https://github.com/manish8561/aws.git /var/www/html/upworktest/
 cd /var/www/html/upworktest
 npm i
