@@ -5,4 +5,5 @@ rm -rf /var/www/html/upworktest/
 git clone https://github.com/manish8561/aws.git /var/www/html/upworktest/
 cd /var/www/html/upworktest
 npm i
+npm start
 echo coping the files
