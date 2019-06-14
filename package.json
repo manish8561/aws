@@ -1,0 +1,23 @@
+{
+  "name": "upworktest",
+  "version": "1.0.0",
+  "description": "upworktest for deployment on aws",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://manish8561@bitbucket.org/manish8561/upworktest.git"
+  },
+  "keywords": [
+    "upwork"
+  ],
+  "author": "Manish Dhiman",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/manish8561/upworktest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

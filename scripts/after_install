@@ -1,0 +1,4 @@
+#!/bin/bash
+#service httpd start
+cp -r /* /var/www/html/upworktest/
+echo coping the files
