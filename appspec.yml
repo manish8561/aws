@@ -4,6 +4,10 @@ files:
   - source: /
     destination: /var/www/html/upworktest/
     overwrite: true
+permissions:
+  - object: / 
+    pattern: "**"
+    owner: ubuntu
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
